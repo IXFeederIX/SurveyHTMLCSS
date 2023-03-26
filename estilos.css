@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Sofia-sans';
+    src: url('SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf');
+}
+
+
+body{
+ background-color: rgb(236, 236, 236);
+ background-image: url(bg.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+
+h1{
+    text-align:center;
+    font-size: 80px;
+    font-family: sofia-sans;
+    margin: 0;
+    padding: 0;
+}
+
+#hup{
+    text-align:center;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    border: 1px solid darkgray;
+        background: linear-gradient(to right, green 33%, white 33%, white 66%, red 66%);
+        border-radius: 25px;
+    }
+.monsterpas{
+    max-width: 550px;
+    margin: 0 auto;
+   margin-left: 0px;
+    border: 5px solid darkgray;
+    border-width: thick;
+}
+aside{
+    float: right;
+    border: 1px solid black;
+     background-color: rgba(252, 252, 252, 1);
+     border-radius:25px;
+     font-family: Geneva, Verdana, sans-serif;
+}
+    .Pastafarianism{
+   text-align: center;
+   font-size: 12px;
+
+}
+.monsterfig{
+    text-align: center;
+    font-size:18px;
+}
+.qte{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 1px solid black;
+    border-radius:25px;
+}
+
+
+.data{
+background: white;
+border-style: solid;
+margin-bottom: 20px;
+border-radius: 25px;
+margin-left: 270px;
+margin-top: -890px;
+color: black;
+font-family:sans-serif;
+}
+.inputbox{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 60px;
+    border-radius:25px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+    position: inline-block;
+    justify-content: space-between;
+}
+label{
+    font-size:25px;
+}
+.information{
+    font-size: 20px;
+}
+.abouts{
+   background-color: white;
+   font-size: 12px;
+   margin-top: 520px;
+   margin-left: 0px;
+   width: 260px;
+   height: 260px;
+    border: 3px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:25px;
+}
+.pastascap{
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+.pastacaproll{
+    text-align: center;
+}
+
+.pastas{
+    width: 200px;
+    margin-left: 30px;
+}
+
+    .pastas2{
+        width: 210px;
+        margin-left: 30px;
+    }
+    .pastas3{
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+    .abouts2{
+        background-color: white;
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 260px;
+        height: 280px;
+         border: 3px solid gray;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         border-radius:25px;
+     }
+     .abouts3{
+        background-color: white;
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 260px;
+        height: 295px;
+        text-align: center;
+         border: 3px solid gray;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         border-radius:25px;
+     }
+.information{
+    text-align: center;
+
+}
+.question-structure{
+    position: relative;
+    margin-left: 275px;
+    border: 3px solid black;
+   border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+    font-family: Tahoma, Sans-serif;
+} 
+#text-field{
+background-color: black; 
+color:white;
+border-radius: 25px;
+width: 200px;
+height: 25px;
+margin-bottom: 5px;
+border-color: gray;
+font-family:  Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+
+}
+button{
+   float: right;
+    background-color: #dfe226; /* Green */
+    border: 1px solid black ;
+    color: rgba(252, 252, 252, 1);
+    padding: 15px 32px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+::placeholder{
+    color: white;
+}
+input[type=radio] {
+    width: 25%;
+    height: 18px;
+    margin: -60px;
+}
+#survey-qs{
+border-bottom: 2px solid green;
+}
